@@ -1,0 +1,21 @@
+body{
+    overflow-x:hidden
+}
+a,i,span{
+    display:inline-block;
+    text-decoration:none;
+    -webkit-transition:all 0.3s;
+    transition:all 0.3s
+}
+a:hover,a:focus,i:hover,i:focus,span:hover,span:focus{
+    text-decoration:none
+}
+section{
+    padding:50px 0
+}
+canvas{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
