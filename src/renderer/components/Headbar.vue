@@ -20,6 +20,7 @@
                 <div class="dropdown-menu" aria-labelledby="ldirectories">
                     <router-link :to="{ name : 'suppliers' }" key="3" class="dropdown-item">Поставщики</router-link>
                     <router-link :to="{ name : 'customers' }" key="4" class="dropdown-item">Клиенты</router-link>
+                    <router-link :to="{ name : 'products' }" key="5" class="dropdown-item">Продукция</router-link>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -27,8 +28,8 @@
                     Документы
                 </a>
                 <div class="dropdown-menu" aria-labelledby="ldocs">
-                    <router-link :to="{ name : 'income' }" key="5" class="dropdown-item">Поступления ТМЦ</router-link>
-                    <router-link :to="{ name : 'implementations' }" key="6" class="dropdown-item">Реализации ТМЦ</router-link>
+                    <router-link :to="{ name : 'income' }" key="6" class="dropdown-item">Поступления ТМЦ</router-link>
+                    <router-link :to="{ name : 'implementations' }" key="7" class="dropdown-item">Реализации ТМЦ</router-link>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -36,8 +37,8 @@
                     Отчет
                 </a>
                 <div class="dropdown-menu" aria-labelledby="lreport">
-                    <router-link :to="{ name : 'bysales' }" key="7" class="dropdown-item">По продажам</router-link>
-                    <router-link :to="{ name : 'byreceipts' }" key="8" class="dropdown-item">По поступлениям</router-link>
+                    <router-link :to="{ name : 'bysales' }" key="8" class="dropdown-item">По продажам</router-link>
+                    <router-link :to="{ name : 'byreceipts' }" key="9" class="dropdown-item">По поступлениям</router-link>
                 </div>
             </li>
 

@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Arm from './pages/Arm'
 import Suppliers from './pages/Suppliers'
 import Customers from './pages/Customers'
+import Products from './pages/Products'
 import Income from './pages/Income'
 import Implementations from './pages/Implementations'
 import Bysales from './pages/Bysales'
@@ -35,6 +36,12 @@ const routes = [
         path: '/customers',
         name: 'customers',
         component: Customers,
+        meta: {auth: undefined}
+    },
+    {
+        path: '/products',
+        name: 'products',
+        component: Products,
         meta: {auth: undefined}
     },
     {
@@ -70,7 +77,7 @@ const routes = [
 ]
 const router = new VueRouter({
   history: true,
-  mode: 'history',
+  mode: 'hash', //'history',
   routes,
 })
 export default router

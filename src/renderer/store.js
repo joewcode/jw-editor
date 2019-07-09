@@ -1,6 +1,12 @@
 
 let store = {
     state: {
+        currentPage: 1,
+
+
+
+
+
         cart: [],
         cartCount: 0,
 
@@ -11,6 +17,7 @@ let store = {
     },
     //
     mutations: {
+        upCurrentPage(state, numb) {state.currentPage = numb},
 
         addToCart(state, item) {
             console.log(item.title)

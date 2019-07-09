@@ -1,6 +1,6 @@
 // Server
 const http = require('http')
-const jfunc = require('./jfunc')
+const jfunc = require('./jfunc').default
 const port = 2211
 
 let server = new http.Server(function(req, res) {

@@ -4,10 +4,9 @@
         <Headbar></Headbar>
     </header>
     <div class="page-content d-flex align-items-stretch">
-        <div id="content" class="container-fluid">
-            <!-- Roure view-->
-            <router-view></router-view>
-        </div>
+        <!-- Roure view-->
+        <router-view></router-view>
+        
     </div>
 </div>
 </template>
